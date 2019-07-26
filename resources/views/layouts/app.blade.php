@@ -9,7 +9,7 @@
     @include('include.sidebar')
     <!-- Content Wrapper -->
     <div id="content-wrapper" class="d-flex flex-column">
-    @include('include.notification')
+    
       <!-- Main Content -->
       <div id="content">
         @include('include.navbar')
@@ -21,6 +21,7 @@
     <!-- End of Content Wrapper -->
   </div>
   <!-- End of Page Wrapper -->
+  @include('include.notification')
   <!-- Scroll to Top Button-->
   <a class="scroll-to-top rounded" href="#page-top">
     <i class="fas fa-angle-up"></i>

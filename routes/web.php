@@ -20,4 +20,6 @@ Auth::routes();
 Route::get('/home', 'HomeController@index')->name('home');
 
 Route::get('/offers', 'OfferController@index')->name('offer.index');
-Route::get('/api/offers', 'OfferController@api_index');
+
+Route::get('/offers/{offerId}', 'OfferController@show')->name('offer.show');
+
